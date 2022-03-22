@@ -36,23 +36,38 @@
 //
 //int  main()
 //{
-//  
-//	
-//		//int arr[10] = { 0 };
-//		//char ch[10] = { 0 };
-//		//printf("%d\n", sizeof(arr));//(1)40
-//		//printf("%d\n", sizeof(ch));//(3)10
-//		//test1(arr);
-//		//test2(ch);
-//		//return 0;
+//	int arr[10] = { 0 };
+//	char ch[10] = { 0 };
+//	printf("%d\n", sizeof(arr));//(1)40
+//	printf("%d\n", sizeof(ch));//(3)10
+//	printf("%d\n", sizeof ch);
+//	test1(arr);
+//	test2(ch);
+//	return 0;
 //}
+
+//int main()
+//{
+//	int a = -10;
+//	int *p = NULL;
+//	printf("%d\n", !2);
+//	printf("%d\n", !0);
+//	a = -a;
+//	p = &a;
+//	printf("%d\n", sizeof(a));
+//	printf("%d\n", sizeof(int));
+//	printf("%d\n", sizeof a);//这样写行不行？
+//	return 0;
+//}
+
 
 
 //int  main()
 //{
 //	short s = 0;
 //	int a = 10;
-//	printf("%d\n", sizeof(s = a + 15));//2 括号里面的表达式没有实际参加运算
+//	printf("%d\n", sizeof(a= s + 15));//2 括号里面的表达式没有实际参加运算
+//	printf("%d\n", sizeof(s = a + 15));
 //	printf("%d\n", s);//0
 //	return 0;
 //}
@@ -61,8 +76,8 @@
 
 //int  main()
 //{
-//	/*
-//	int a = 10;
+//	
+//	/*int a = 10;
 //	printf("%d\n", ++a);
 //	printf("%d\n", a);
 //	int a1 = 10;
@@ -99,8 +114,15 @@
 //	return 0;
 //}
 
-
-
+//
+//int main()
+//{
+//	int i = 0, a = 0, b = 2, c = 3, d = 4;
+//	//i = a++ && ++b && d++;
+//	i = a++||++b||d++;
+//	printf("a = %d\nb = %d\nc = %d\nd = %d\n", a, b, c, d);
+//	return 0;
+//}
 
 
 //void test1()
@@ -152,45 +174,77 @@
 //
 //}
 
-int main()
-{
-	printf("%d %i %d %d %d %d\n",340,0x154, 0X154, 0524,0xAb,0xAB);
-	//%d,%i   表示整形量int 
-	//%lf     long float的意思，表示double
-	//%o      表示“无符号八进制整形数”
-	//%x %X   表示“无符号十六进制整型数”
-	printf("%d %o %x %X\n",0144,-1,-1,-1);
-	//(-1)补（32位）
-	//=（1000 0000 0000 0000 0000 0000 0000 0001)原
-	//= (1111 1111 1111 1111 1111 1111 1111 1111)补
-	//= (011 111 111 111 111 111 111 111 111 111 111)补
-	//= (3    7   7   7    7  7    7  7    7   7   7)补8
-    //printf("%d\n", 3.14);
-	//这种输出是有逻辑错误的，而逻辑错误是c编译软件所无法发现的。
-	printf("%lf %lf %lf %lf %lf %lf\n", 3.14, -4.5, 3., .3,2.34e4,0.000234E8);
-	//printf("%lf\n", 2.34e);错
-	//printf("%lf\n", e4);错
-	//printf("%lf\n", 2.34e2.3);错
-	//xey 其中x必须是整形或小数常量；y必须是整型；且e可以用E。x和y缺一不可。
-	printf("%c\n", 'A');
-	printf("%c %c %c %c %c\n",65,'\101','\x41','\x7D','\x7d');
-	printf("\101\102\103\104\n");
-	printf("我想输出一个',可以么？\'可以么？\n");
-	printf("%c %c\n", '"', '\"');
-	printf("95%%");
-	printf("我说:\"你说：'他走了。'\"\n");
-	printf("我爱你！k;adlksjfkajdf\b\b\b\b她\n");
-	printf("我爱你！\r他\n");
-	printf("%d\n", strlen("我爱你！\r他\n"));
-	//printf("%d\n", strlen("\xABwC"));
-	printf("1234567890123456789012345678901234567890\n");
-	printf("姓名\t年龄\t工资\t职称\n张三\t20\t3400\t工程师\n");
-	printf("刘耀文\t3\t30000\t开发工程师\n");
-	printf("哒哒哒阿达\t20\t10000\txuesheng\n");
-	//\t   将光标移动到当前位置的下一个“制表符”位置的下一个位置
-	
-	return 0;
-}
+
+#include <stdio.h>
+//struct Stu
+//{
+//	char name[10];
+//	int age;
+//	char sex[5];
+//	double score;
+//};
+//void set_age1(struct Stu stu)
+//{
+//	stu.age = 18;
+//}
+//void set_age2(struct Stu* pStu)
+//{
+//	pStu->age = 18;//结构成员访问
+//}
+//int main()
+//{
+//	struct Stu stu;
+//	struct Stu* pStu = &stu;//结构成员访问
+//	stu.age = 20;//结构成员访问
+//	printf("%d\n", stu.age);
+//	set_age1(stu);
+//	printf("%d\n", stu.age);
+//	pStu->age = 20;//结构成员访问
+//	printf("%d\n", stu.age);
+//	set_age2(pStu);
+//	printf("%d\n", stu.age);
+//	return 0;
+//}
+
+//int main()
+//{
+//	printf("%d %i %d %d %d %d\n",340,0x154, 0X154, 0524,0xAb,0xAB);
+//	//%d,%i   表示整形量int 
+//	//%lf     long float的意思，表示double
+//	//%o      表示“无符号八进制整形数”
+//	//%x %X   表示“无符号十六进制整型数”
+//	printf("%d %o %x %X\n",0144,-1,-1,-1);
+//	//(-1)补（32位）
+//	//=（1000 0000 0000 0000 0000 0000 0000 0001)原
+//	//= (1111 1111 1111 1111 1111 1111 1111 1111)补
+//	//= (011 111 111 111 111 111 111 111 111 111 111)补
+//	//= (3    7   7   7    7  7    7  7    7   7   7)补8
+//    //printf("%d\n", 3.14);
+//	//这种输出是有逻辑错误的，而逻辑错误是c编译软件所无法发现的。
+//	printf("%lf %lf %lf %lf %lf %lf\n", 3.14, -4.5, 3., .3,2.34e4,0.000234E8);
+//	//printf("%lf\n", 2.34e);错
+//	//printf("%lf\n", e4);错
+//	//printf("%lf\n", 2.34e2.3);错
+//	//xey 其中x必须是整形或小数常量；y必须是整型；且e可以用E。x和y缺一不可。
+//	printf("%c\n", 'A');
+//	printf("%c %c %c %c %c\n",65,'\101','\x41','\x7D','\x7d');
+//	printf("\101\102\103\104\n");
+//	printf("我想输出一个',可以么？\'可以么？\n");
+//	printf("%c %c\n", '"', '\"');
+//	printf("95%%");
+//	printf("我说:\"你说：'他走了。'\"\n");
+//	printf("我爱你！k;adlksjfkajdf\b\b\b\b她\n");
+//	printf("我爱你！\r他\n");
+//	printf("%d\n", strlen("我爱你！\r他\n"));
+//	//printf("%d\n", strlen("\xABwC"));
+//	printf("1234567890123456789012345678901234567890\n");
+//	printf("姓名\t年龄\t工资\t职称\n张三\t20\t3400\t工程师\n");
+//	printf("刘耀文\t3\t30000\t开发工程师\n");
+//	printf("哒哒哒阿达\t20\t10000\txuesheng\n");
+//	//\t   将光标移动到当前位置的下一个“制表符”位置的下一个位置
+//	
+//	return 0;
+//}
 
 
 
@@ -473,12 +527,12 @@ int main()
 //	return 0;
 //}  
 
-//int main()
-//{
-//	printf("printf()函数返回了：%d\n",printf("abcd\rh\n"));
-//	printf("%010.5lf\n", 12134111.22222);
-//	return 0;
-//}
+int main()
+{
+	printf("printf()函数返回了：%d\n",printf("abcd\rh\n"));
+	printf("%010.5lf\n", 12134111.22222);
+	return 0;
+}
 
 
 
@@ -499,7 +553,7 @@ int main()
 //{
 //	pStu->age = 18;//结构成员访问
 //}
-
+//
 //int main()
 //{
 //	//struct Stu stu;
@@ -515,6 +569,7 @@ int main()
 //	int n1 = sizeof(ch + num);
 //	printf("%d\n", n1);
 //	int n2 = sizeof(ch = ch + num);
+//	printf("%d\n", ch);
 //	printf("%d\n", n2);
 //	return 0;
 //}
