@@ -114,12 +114,12 @@
 //	return 0;
 //}
 
-//
+
 //int main()
 //{
 //	int i = 0, a = 0, b = 2, c = 3, d = 4;
-//	//i = a++ && ++b && d++;
-//	i = a++||++b||d++;
+//	i = a++ && ++b && d++;
+//	//i = a++||++b||d++;
 //	printf("a = %d\nb = %d\nc = %d\nd = %d\n", a, b, c, d);
 //	return 0;
 //}
@@ -236,13 +236,12 @@
 //	printf("我爱你！k;adlksjfkajdf\b\b\b\b她\n");
 //	printf("我爱你！\r他\n");
 //	printf("%d\n", strlen("我爱你！\r他\n"));
-//	//printf("%d\n", strlen("\xABwC"));
+//	printf("%d\n", strlen("\xABwC"));
 //	printf("1234567890123456789012345678901234567890\n");
 //	printf("姓名\t年龄\t工资\t职称\n张三\t20\t3400\t工程师\n");
 //	printf("刘耀文\t3\t30000\t开发工程师\n");
 //	printf("哒哒哒阿达\t20\t10000\txuesheng\n");
 //	//\t   将光标移动到当前位置的下一个“制表符”位置的下一个位置
-//	
 //	return 0;
 //}
 
@@ -255,10 +254,10 @@
 //	int c = -27 % -4;
 //	int i = 0;
 //	
-//	/*for (i = 0; i <= 100; i++)
+//	for (i = 0; i <= 100; i++)
 //	{
 //		printf("%c ", i % 26 + 'A' +32);
-//	}*/
+//	}
 //	/*for (i = 0; i <= 100; i++)
 //	{
 //		printf("%d ",  i / 26 % 2 );
@@ -267,11 +266,11 @@
 //	{
 //		printf("%c ",i%26+'A'+i/26%2*32);
 //	}*/
-//	for (i = 0; i <= 51; i++)
-//	{
-//		//printf("%c ", i/2%26 + 'A' + i% 2 * 32);
-//		printf("%c ", i%52/2+ 'A' + i % 2*32);
-//	}
+//	//for (i = 0; i <= 51; i++)
+//	//{
+//	//	//printf("%c ", i/2%26 + 'A' + i% 2 * 32);
+//	//	printf("%c ", i%52/2+ 'A' + i % 2*32);
+//	//}
 //	//printf("%d %d %d\n", a,b,c);
 //	return 0;
 //}
@@ -283,7 +282,7 @@
 //	printf("%lf\n", exp(1.0));
 //	printf("%lf\n", sqrt(2.0));
 //	printf("%lf %lf\n", log10(2.0),log(2.0)/log(10.0));
-//  printf("%lf\n", sin(30*3.1415926/180.0));
+//    printf("%lf\n", sin(30*3.1415926/180.0));
 //	return 0;
 //}
 
@@ -386,9 +385,9 @@
 //{
 //	char sex;
 //	int a, b, c, d;
-//	///*scanf("%c", &sex);
-//	//printf(sex == 'm' ? "先生\n" : "女士\n");
-//	//printf("刘德华%s\n", sex == 'm' ? "先生\n" : "女士\n");*/
+//	scanf("%c", &sex);
+//	printf(sex == 'm' ? "先生\n" : "女士\n");
+//	printf("刘德华%s\n", sex == 'm' ? "先生\n" : "女士\n");
 //	//scanf("%d%d%d", &a, &b, &c);
 //	////d=a、b中最大的>c ？a、b中最大的 ：c;
 //	//d= (a>b?a:b) > c ? (a>b?a:b) : c;
@@ -396,14 +395,14 @@
 //	/*a = 1;
 //	b = a-- ? a + 1 : a * 2;
 //	printf("%d %d\n", a, b);*/
-//	a = 7;
-//	while (a--)
-//		printf("%d ", a);
-//	printf("%d\n", a);
+//	//a = 7;
+//	//while (a--)
+//	//	printf("%d ", a);
+//	//printf("%d\n", a);
 //	return 0;
 //}
-
-
+//
+//
 //int main()
 //{
 //	int i,j,k;
@@ -475,7 +474,7 @@
 //	////自动强制类型转换
 //	//char c;
 //	//c = 3.14159 + 'A';
-//	//printf("%d %c\n", c, c);
+//	//printf("%d %c\n", c, c);//68 D
 //	int i = 0, j = 2, k;
 //	k = ++i || ++j;
 //	//因为++i的值为1，为真，||运算符左侧为真，所以右侧++j被短路
@@ -484,6 +483,11 @@
 //	i = 0 ;
 //	j = 2;
 //	k = i++ || ++j;
+//	printf("%d %d %d\n", i, j, k);
+//
+//	i = 0;
+//	j = 2;
+//	k = i++ || j++;
 //	printf("%d %d %d\n", i, j, k);
 //
 //	i = 0;
@@ -527,12 +531,12 @@
 //	return 0;
 //}  
 
-int main()
-{
-	printf("printf()函数返回了：%d\n",printf("abcd\rh\n"));
-	printf("%010.5lf\n", 12134111.22222);
-	return 0;
-}
+//int main()
+//{
+//	printf("printf()函数返回了：%d\n",printf("abcd\rh\n"));
+//	printf("%015.5lf\n", 12134111.22222);
+//	return 0;
+//}
 
 
 
