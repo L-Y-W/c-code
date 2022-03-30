@@ -1,0 +1,41 @@
+
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 145
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 145
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 145
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 145
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 145
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 145
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 145
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 145
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 145
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 145
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 164
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 164
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 164
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 164
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 164
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 164
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 164
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 164
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 164
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 164
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 166 date: Apr  4 2021 time: 17:07:19 i = 0
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 166 date: Apr  4 2021 time: 17:07:19 i = 1
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 166 date: Apr  4 2021 time: 17:07:19 i = 2
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 166 date: Apr  4 2021 time: 17:07:19 i = 3
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 166 date: Apr  4 2021 time: 17:07:19 i = 4
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 166 date: Apr  4 2021 time: 17:07:19 i = 5
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 166 date: Apr  4 2021 time: 17:07:19 i = 6
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 166 date: Apr  4 2021 time: 17:07:19 i = 7
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 166 date: Apr  4 2021 time: 17:07:19 i = 8
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 166 date: Apr  4 2021 time: 17:07:19 i = 9
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 230 date: Mar 28 2022 time: 19:10:08 i = 0
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 230 date: Mar 28 2022 time: 19:10:08 i = 1
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 230 date: Mar 28 2022 time: 19:10:08 i = 2
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 230 date: Mar 28 2022 time: 19:10:08 i = 3
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 230 date: Mar 28 2022 time: 19:10:08 i = 4
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 230 date: Mar 28 2022 time: 19:10:08 i = 5
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 230 date: Mar 28 2022 time: 19:10:08 i = 6
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 230 date: Mar 28 2022 time: 19:10:08 i = 7
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 230 date: Mar 28 2022 time: 19:10:08 i = 8
+file: c:\users\super\desktop\¸öÈË±Ê¼Ç\c-code\Ô¤±àÒë\Ô¤±àÒë\test.c line: 230 date: Mar 28 2022 time: 19:10:08 i = 9

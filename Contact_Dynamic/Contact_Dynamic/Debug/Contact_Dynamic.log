@@ -1,0 +1,5 @@
+﻿  contact.c
+c:\users\super\desktop\个人笔记\c\c-code\contact_dynamic\contact_dynamic\contact.c(11): warning C4098: “InitContact”:“void”函数返回值
+  test.c
+  正在生成代码...
+  Contact_Dynamic.vcxproj -> C:\Users\super\Desktop\个人笔记\c\c-code\Contact_Dynamic\Debug\Contact_Dynamic.exe
